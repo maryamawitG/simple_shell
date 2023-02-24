@@ -73,7 +73,7 @@ int print_d(int input, int fd)
 		if (_abs_ / i)
 		{
 			__putchar('0' + current / i);
-			coulnt++;
+			count++;
 		}
 		current %= i;
 	}
